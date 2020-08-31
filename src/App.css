@@ -128,6 +128,10 @@ a:hover {
   color: #2e72ca;
 }
 
+#button-container {
+  padding: 18px 0 18px 0;
+}
+
 #google-search, #feeling-lucky {
   background-color: #F2F2F2;
   color: #5F6368;
@@ -146,7 +150,6 @@ a:hover {
 
 #message-container {
   margin-bottom: 32px;
-  margin-top: 28px;
   font-size: 13.5px;
   letter-spacing: 0.35px;
   text-decoration: none;
