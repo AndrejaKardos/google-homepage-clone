@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HeaderLogo from './HeaderLogo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTh, faUser } from '@fortawesome/free-solid-svg-icons'
 import '../App.css';
