@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTh, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faTh } from '@fortawesome/free-solid-svg-icons'
+import UserMenu from './UserMenu'
 import '../App.css';
 
 class Header extends Component {
@@ -25,9 +26,7 @@ class Header extends Component {
                     <div>
                         <FontAwesomeIcon icon={faTh} transform='grow-8' id='icon-grid' />
                     </div>
-                    <div>
-                        <FontAwesomeIcon icon={faUser} transform='grow-8' id='icon-user' />
-                    </div>
+                    <UserMenu />
                 </div>
             </div>
         );

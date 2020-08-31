@@ -7,7 +7,7 @@ import '../App.css';
 
 class MainContent extends Component {
     render() {
-        return(
+        return (
             <div id='main'>
                 <HeaderLogo />
                 <div id='searchform'>
