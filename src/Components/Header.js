@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTh } from '@fortawesome/free-solid-svg-icons'
+import AppsMenu from './AppsMenu'
 import UserMenu from './UserMenu'
 import '../App.css';
 
@@ -23,9 +22,7 @@ class Header extends Component {
                     <div className='header-text'>
                         <a href='https://www.google.com.au/imghp?hl=en&tab=wi&authuser=0&ogbl'>Images</a>
                     </div>
-                    <div>
-                        <FontAwesomeIcon icon={faTh} transform='grow-8' id='icon-grid' />
-                    </div>
+                    <AppsMenu />
                     <UserMenu />
                 </div>
             </div>
