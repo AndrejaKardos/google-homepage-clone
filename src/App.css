@@ -47,7 +47,7 @@ a:hover {
 #header-left {
   display: flex;
   flex-direction: row;
-  font-size: 13px;
+  font-size: 14px;
   font-family: arial, sans-serif;
   padding: 15px;
   color: #000;
@@ -59,7 +59,7 @@ a:hover {
   flex-direction: row;
   padding: 15px;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 14px;
   font-family: arial, sans-serif;
 }
 
@@ -81,7 +81,7 @@ a:hover {
 
 #logo-container {
   width: 272;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   margin: auto;
   min-width: 400px;
 }
@@ -150,8 +150,8 @@ a:hover {
 
 #message-container {
   margin-bottom: 32px;
-  font-size: 13.5px;
-  letter-spacing: 0.35px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
   text-decoration: none;
   text-decoration-color: none;
 }
@@ -167,6 +167,7 @@ a:hover {
   width: 100%;
   background-color: #F2F2F2;
   line-height: 40px;
+  letter-spacing: 0.2px;
 }
 
 #footer-upper {
