@@ -6,8 +6,8 @@ import '../App.css'
 class AppsMenu extends Component {
     render() {
         return (
-            <div id='app-button'>
-                <FontAwesomeIcon icon={faTh} transform='grow-8' id='icon-grid' />
+            <div id='grid-button'>
+                <FontAwesomeIcon icon={faTh} transform='grow-7' id='icon-grid' />
             </div>
         );
     }

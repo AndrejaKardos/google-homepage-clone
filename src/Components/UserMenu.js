@@ -14,7 +14,7 @@ class UserMenu extends Component {
     render() {
         return (
             <button id='user-button'>
-                <FontAwesomeIcon icon={faUser} transform='grow-8' id='icon-user' />
+                <FontAwesomeIcon icon={faUser} transform='grow-12' id='icon-user' />
             </button>
         );
     }

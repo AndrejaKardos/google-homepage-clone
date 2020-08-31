@@ -65,20 +65,27 @@ a:hover {
   letter-spacing: 0.2px;
 }
 
-#user-button {
+
+#icon-grid {
+  color: #7e8288;
+  padding: 12px 20px 0 25px;
+}
+
+#grid-button {
   border: none;
   background: none;
   padding: 0;
 }
 
-#icon-grid {
-  color: #7e8288;
-  padding: 10px 20px 0 20px;
-}
-
 #icon-user {
   color: #2e72ca;
-  padding: 10px 20px 0 20px;
+  padding: 10px 30px 0 15px;
+}
+
+#user-button {
+  border: none;
+  background: none;
+  padding: 0;
 }
 
 #main {
