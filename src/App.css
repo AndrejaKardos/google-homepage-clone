@@ -163,7 +163,7 @@ a:hover {
 #footer-container {
   display: flex;
   flex-direction: column;
-  height: 105px;
+  height: 90px;
   width: 100%;
   background-color: #F2F2F2;
   line-height: 40px;
@@ -172,9 +172,9 @@ a:hover {
 #footer-upper {
   display: flex;
   justify-content: flex-start;
-  color: rgba(0,0,0,.54);
+  color: rgba(0,0,0,.50);
   font-size: 17px;
-  padding: 2px 0 2px 27px;
+  padding: 2px 0 2px 35px;
   visibility: visible;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
@@ -186,18 +186,26 @@ a:hover {
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
-  font-size: 15px;
-  color: rgba(0,0,0,.70);
+  font-size: 0.95rem;
+  color: rgba(0,0,0,.65);
 }
 
 #footer-lower-left {
   display: flex;
-  margin-left: 27px;
-  padding: 0 27px 0 0;
+  margin-left: 35px;
+  padding: 2px 28px 0 0;
+}
+
+.left-footer-link {
+  padding-right: 30px;
 }
 
 #footer-lower-right {
   display: flex;
-  margin-right: 27px;
-  padding: 0 27px 0 0;
+  margin-right: 10px;
+  padding: 2px 28px 0 0;
+}
+
+.right-footer-link {
+  padding-left: 30px;
 }
