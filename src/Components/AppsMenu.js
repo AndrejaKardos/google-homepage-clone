@@ -26,7 +26,7 @@ class AppsMenu extends Component {
                     <FontAwesomeIcon icon={faTh} transform='grow-7' id='icon-grid' />
                 </button>
                 { this.state.isOpen && 
-                    <div>Hello world</div>
+                    <div id='app-menu'>Hello world</div>
                 }
             </div>
         );

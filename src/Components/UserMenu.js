@@ -26,7 +26,7 @@ class UserMenu extends Component {
                     <FontAwesomeIcon icon={faUser} transform='grow-12' id='icon-user' />
                 </button>
                 { this.state.isOpen &&
-                    <div>Hello world</div>
+                    <div id='user-menu'>Hello world</div>
                 }
             </div>
         );
