@@ -21,9 +21,9 @@ class UserMenu extends Component {
 
     render() {
         return (
-            <div>
+            <div id='icon-user-container'>
                 <button id='user-button' onClick={this.onClick}>
-                    <FontAwesomeIcon icon={faUser} transform='grow-12' id='icon-user' />
+                    <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='icon-user' />
                 </button>
                 { this.state.isOpen &&
                     <div id='user-menu'>Hello world</div>

@@ -21,7 +21,7 @@ class AppsMenu extends Component {
 
     render() {
         return (
-            <div>
+            <div id='icon-grid-container'>
                 <button id='grid-button' onClick={this.onClick}>
                     <FontAwesomeIcon icon={faTh} transform='grow-7' id='icon-grid' />
                 </button>
