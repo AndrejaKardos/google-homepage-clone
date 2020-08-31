@@ -9,13 +9,26 @@ class UserMenu extends Component {
         this.state = {
             isOpen: false
         }
+
+        this.onClick = this.onClick.bind(this)
+    }
+
+    onClick() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        })
     }
 
     render() {
         return (
-            <button id='user-button'>
-                <FontAwesomeIcon icon={faUser} transform='grow-12' id='icon-user' />
-            </button>
+            <div>
+                <button id='user-button' onClick={this.onClick}>
+                    <FontAwesomeIcon icon={faUser} transform='grow-12' id='icon-user' />
+                </button>
+                { this.state.isOpen &&
+                    <div>Hello world</div>
+                }
+            </div>
         );
     }
 }

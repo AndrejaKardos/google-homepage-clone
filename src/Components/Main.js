@@ -9,7 +9,7 @@ class MainContent extends Component {
     render() {
         return (
             <div id='main'>
-                <HeaderLogo />
+                    <HeaderLogo />
                 <div id='searchform'>
                     <SearchBar />
                     <Buttons />

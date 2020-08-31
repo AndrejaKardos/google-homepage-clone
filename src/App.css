@@ -88,6 +88,10 @@ a:hover {
   padding: 0;
 }
 
+#user-button:focus {
+  border: none;
+}
+
 #main {
   flex-grow: 1;
   padding: 0px 0px 40px;
@@ -103,7 +107,7 @@ a:hover {
 }
 
 #searchbar-container {
-  max-width: 650px;
+  max-width: 640px;
   margin: auto;
   padding: 0 14px 0 14px;
 }

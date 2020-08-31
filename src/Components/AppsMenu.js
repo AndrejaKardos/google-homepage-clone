@@ -4,10 +4,30 @@ import { faTh } from '@fortawesome/free-solid-svg-icons'
 import '../App.css'
 
 class AppsMenu extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isOpen: false
+        }
+
+        this.onClick = this.onClick.bind(this)
+    }
+
+    onClick() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        })
+    }
+
     render() {
         return (
-            <div id='grid-button'>
-                <FontAwesomeIcon icon={faTh} transform='grow-7' id='icon-grid' />
+            <div>
+                <button id='grid-button' onClick={this.onClick}>
+                    <FontAwesomeIcon icon={faTh} transform='grow-7' id='icon-grid' />
+                </button>
+                { this.state.isOpen && 
+                    <div>Hello world</div>
+                }
             </div>
         );
     }
