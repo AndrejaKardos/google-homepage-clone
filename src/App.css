@@ -52,6 +52,7 @@ a:hover {
   padding: 15px;
   color: #000;
   opacity: 0.75;
+  letter-spacing: 0.2px;
 }
 
 #header-right {
@@ -61,6 +62,7 @@ a:hover {
   justify-content: space-between;
   font-size: 14px;
   font-family: arial, sans-serif;
+  letter-spacing: 0.2px;
 }
 
 #icon-grid {
