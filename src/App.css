@@ -208,6 +208,7 @@ a:hover {
   line-height: normal; 
   position: relative;
   text-align: left;
+  text-decoration: none;
 }
 
 #email-info {
@@ -221,11 +222,22 @@ a:hover {
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  padding: 20px 0 20px 40px;
+  padding: 20px 0 20px 30px;
 }
 
 #add-account-icon, #add-account-text {
-  padding: 5px;
+  color: #424242;
+  font-size: 15px;
+  padding: 0 8px 0 16px;
+  letter-spacing: 0.29px;
+  text-align: left;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+#add-account-text:hover, #email-text:hover {
+  text-decoration: none;
+  color: #2e2f2f;
 }
 
 #icon-user-purple {
