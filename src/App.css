@@ -188,10 +188,15 @@ a:hover {
   cursor: pointer;
   height: 35px;
   outline: 0;
-  padding: 12px 33px 13px;
+  padding: 10px;
   min-width: 165px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.email-account:hover {
+  text-decoration: none;
+  background-color: #f6f6f6;
 }
 
 .email-account {
@@ -219,6 +224,10 @@ a:hover {
 
 #add-user-icon {
   color: #5d6066;
+}
+
+#sign-out-div {
+  border-top: 1px solid #e8eaed;
 }
 
 #sign-out {
