@@ -122,6 +122,11 @@ a:hover {
   box-shadow: 1px 1px 5px 2px rgb(223, 223, 223);
 }
 
+#user-info {
+  margin: 20px;
+  white-space: nowrap;
+}
+
 #user-menu-icon {
   width: 80px;
   height: 80px;
@@ -130,6 +135,27 @@ a:hover {
   margin: 20px;
   border-radius: 50%;
   color: #2e72ca;
+}
+
+#username {
+  color: #202124;
+  font: 500 16px/22px Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  letter-spacing: .29px;
+  margin: 0;
+  margin: -4px 0 1px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-top: 5px; 
+}
+
+#email {
+  color: #5f6368;
+  font: 400 14px/19px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  letter-spacing: normal;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-bottom: 25px;
 }
 
 #manage-account-link {
