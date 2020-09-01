@@ -212,7 +212,6 @@ a:hover {
   padding-bottom: 20px;
 }
 
-
 .email-text {
   flex-direction: column;
   text-align: left;
@@ -220,10 +219,16 @@ a:hover {
 
 .email-text-top {
   align-self: flex-start;
+  color: #2a2a2a;
+  font-size: 15px;
+  padding-left: 2px;
+  font-weight: 500;
 }
 
-.email-text-tbottom {
+.email-text-bottom {
   align-self: flex-end;
+  color: #64676b;
+  padding: 2px; 
 }
 
 #add-account-info {
@@ -246,18 +251,6 @@ a:hover {
   padding: 0 0 50px 25px;
 }
 
-.email-text-top {
-  color: #2a2a2a;
-  font-size: 15px;
-  padding-left: 2px;
-  font-weight: 500;
-}
-
-.email-text-bottom {
-  color: #64676b;
-  padding: 2px; 
-}
-
 #add-account-icon, #add-account-text {
   color: #424242;
   font-size: 15px;
@@ -268,8 +261,12 @@ a:hover {
   white-space: normal;
 }
 
-#add-account-text:hover, #email-text:hover {
+.email-account:hover, #add-account-div:hover {
   text-decoration: none;
+}
+
+.email-account-div:hover, #add-account-info:hover {
+  background-color: #f6f6f6;
 }
 
 .icon-user-secondary {
