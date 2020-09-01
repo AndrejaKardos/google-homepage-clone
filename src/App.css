@@ -211,6 +211,22 @@ a:hover {
   text-align: left;
 }
 
+#icon-user-purple {
+  color: #513185;
+}
+
+#icon-user-green {
+  color: #31855b;
+}
+
+#icon-user-pink {
+  color: #f6b4c3;
+}
+
+#add-user-icon {
+  color: #5d6066;
+}
+
 #sign-out {
   background-color: #ffffff;
   border: 1px solid #dadce0;
