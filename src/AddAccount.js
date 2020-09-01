@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import '../App.css'
 
 class AddAcount extends Component {
