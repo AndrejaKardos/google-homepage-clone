@@ -28,8 +28,8 @@ class UserMenu extends Component {
                 { this.state.isOpen &&
                     <div id='user-menu'>
                         <div id='user-info'>
-                            <div id='user-info-icon'>
-                                <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='icon-user' />
+                            <div id='user-menu-icon-container'>
+                                <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='user-menu-icon' />
                             </div>
                             <div id='username'>
                                 Username

@@ -121,6 +121,16 @@ a:hover {
   border: 1px solid rgb(155, 153, 153);
 }
 
+#user-menu-icon {
+  width: 80px;
+  height: 80px;
+  border: none;
+  vertical-align: top;
+  margin: 20px;
+  border-radius: 50%;
+  color: #2e72ca;
+}
+
 #manage-account-link {
   background-color: #fff;
   border: 1px solid #dadce0;
