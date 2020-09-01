@@ -122,7 +122,7 @@ a:hover {
 }
 
 #user-info {
-  margin: 0 40px 40px 40px; 
+  margin: 0 40px 0 40px; 
   white-space: nowrap;
   padding-bottom: 35px;
   border-bottom: 1px solid #e8eaed;
@@ -181,7 +181,9 @@ a:hover {
   overflow: hidden;
 }
 
-#email-account-div {
+.email-account-div {
+  display: flex;
+  flex-direction: row;
   border-top: 1px solid #ccc;
   border-top-color: rgba(0,0,0,.2);
   border: none;
@@ -190,34 +192,44 @@ a:hover {
   outline: 0;
   padding: 10px;
   min-width: 165px;
-  padding-left: 30px;
+  padding-left: 16px;
   padding-right: 30px;
 }
 
-#email-account:hover {
-  text-decoration: none;
-  background-color: #f6f6f6;
-}
-
-#email-account {
+.email-account {
   border: none;
   cursor: pointer;
   height: 35px;
   outline: 0;
-  padding: 12px 33px 13px;
+  padding: 20px;
   line-height: normal; 
   position: relative;
   text-align: left;
   text-decoration: none;
 }
 
-#email-info {
+.email-info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-#add-account-info, #email-info, #email-icon, #email-text {
+
+.mail-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.email-text-top {
+  align-self: flex-start;
+}
+
+.email-text-tbottom {
+  align-self: flex-end;
+}
+
+#add-account-info, .email-info, .email-icon, .email-text {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -237,11 +249,10 @@ a:hover {
 
 #add-account-text:hover, #email-text:hover {
   text-decoration: none;
-  color: #2e2f2f;
 }
 
-#icon-user-purple {
-  color: #513185;
+.icon-user-secondary {
+  color: #6d9ad4;
 }
 
 #add-user-icon {

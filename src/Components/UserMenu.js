@@ -42,7 +42,10 @@ class UserMenu extends Component {
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
                         </div>
 
-                        <a href='https://www.google.com/webhp?authuser=1' id='email-account'> 
+                        <a href='https://www.google.com/webhp?authuser=1' className='email-account'> 
+                            <Email />
+                        </a>
+                        <a href='https://www.google.com/webhp?authuser=2' className='email-account'> 
                             <Email />
                         </a>
                         <a href='https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=AddSession' id='add-account-div'>
