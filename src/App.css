@@ -138,18 +138,19 @@ a:hover {
 
 #username {
   color: #202124;
-  font: 500 16px/22px Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font: 500 18px/22px Google Sans, Roboto, RobotoDraft, Helvetica,Arial,sans-serif;
   letter-spacing: .29px;
   margin: 0;
   margin: -4px 0 1px 0;
   text-overflow: ellipsis;
   overflow: hidden;
   padding-top: 5px; 
+  font-weight: 500;
 }
 
 #email {
   color: #5f6368;
-  font: 400 14px/19px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 14px;
   letter-spacing: normal;
   text-align: center;
   text-overflow: ellipsis;
