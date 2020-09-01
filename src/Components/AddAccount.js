@@ -6,11 +6,11 @@ import '../App.css'
 class AddAccount extends Component {
     render() {
         return (
-            <div className='email-info'>
-                <div className='email-icon'>
+            <div id='add-account-info'>
+                <div id='add-account-icon'>
                     <FontAwesomeIcon icon={faUserPlus} transform='grow-5' id='add-user-icon' />
                 </div>
-                <div className='email-text'>
+                <div id='add-account-text'>
                     Add another account
                 </div>
             </div>
