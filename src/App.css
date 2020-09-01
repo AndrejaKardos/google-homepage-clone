@@ -328,7 +328,7 @@ a:hover {
   color: #5F6368;
   font-family: arial, sans-serif;
   font-size: 15px;
-  margin: 14px 6px;
+  margin: 14px 9px;
   padding: 0px 18px;
   border: 1px solid #F2F2F2;
   border-radius: 5px;
@@ -337,6 +337,11 @@ a:hover {
   min-width: 54px;
   text-align: center;
   cursor: pointer;
+}
+#google-search:hover, #feeling-lucky:hover {
+  text-decoration: none;
+  color: #000;
+  border: solid 1px #bbbdc0; 
 }
 
 #message-container {
