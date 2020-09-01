@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Email from './Email'
+import AddAccount from './AddAccount'
 import '../App.css'
 
 class UserMenu extends Component {
@@ -41,7 +42,12 @@ class UserMenu extends Component {
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
                         </div>
 
-                        <Email />
+                        <a href='https://www.google.com/webhp?authuser=1' className='email-account'> 
+                            <Email />
+                        </a>
+                        <a href='https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=AddSession' className='email-account'>
+                            <AddAccount />
+                        </a>
 
                         <div>
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='sign-out'>Sign out of all accounts</a>

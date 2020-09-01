@@ -8,11 +8,13 @@ class Email extends Component {
         return (
             <div className='email-account-div'>
                     <div className='email-info'>
-                        <div className='email-icon'></div>
-                            <FontAwesomeIcon icon={faUser} transform='grow-16' id='icon-user-purple' />
+                        <div className='email-icon'>
+                        <FontAwesomeIcon icon={faUser} transform='grow-16' id='icon-user-purple' />
+                        </div>
+                            
                         <div className='email-text'>
                             <div className='email-text-top'>Username</div>
-                            <div className='email-text-bottom'>email3@gmail.com</div>
+                            <div className='email-text-bottom'>emailname2@gmail.com</div>
                         </div>
                     </div>
             </div>

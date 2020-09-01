@@ -181,12 +181,7 @@ a:hover {
   overflow: hidden;
 }
 
-#email-container {
-  position: relative;
-  border-bottom: 1px solid #e8eaed;
-}
-
-#email-account-div {
+.email-account-div {
   border-top: 1px solid #ccc;
   border-top-color: rgba(0,0,0,.2);
   border: none;
@@ -199,7 +194,7 @@ a:hover {
   padding-right: 30px;
 }
 
-#email-account {
+.email-account {
   border: none;
   cursor: pointer;
   height: 35px;
@@ -210,7 +205,7 @@ a:hover {
   text-align: left;
 }
 
-#email-info {
+.email-info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
