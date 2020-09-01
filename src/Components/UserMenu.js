@@ -26,7 +26,20 @@ class UserMenu extends Component {
                     <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='icon-user' />
                 </button>
                 { this.state.isOpen &&
-                    <div id='user-menu'>Hello world</div>
+                    <div id='user-menu'>
+                        <div id='user-info'>
+                            <div id='user-info-icon'>
+                                <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='icon-user' />
+                            </div>
+                            <div id='username'>
+                                Username
+                            </div>
+                            <div id='email'>
+                                E-mail
+                            </div>
+                            <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
+                        </div>
+                    </div>
                 }
             </div>
         );
