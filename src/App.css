@@ -192,8 +192,6 @@ a:hover {
   outline: 0;
   padding: 10px;
   min-width: 165px;
-  padding-left: 16px;
-  padding-right: 30px;
 }
 
 .email-account {
@@ -215,8 +213,7 @@ a:hover {
 }
 
 
-.mail-text {
-  display: flex;
+.email-text {
   flex-direction: column;
   text-align: left;
 }
@@ -229,7 +226,7 @@ a:hover {
   align-self: flex-end;
 }
 
-#add-account-info, .email-info, .email-icon, .email-text {
+#add-account-info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -237,10 +234,22 @@ a:hover {
   padding: 20px 0 20px 30px;
 }
 
+.email-info {
+  padding: 15px 10px 30px 35px;
+}
+
+.email-icon {
+  padding-top: 8px;
+}
+
+.email-text {
+  padding: 0 0 50px 25px;
+}
+
 #add-account-icon, #add-account-text {
   color: #424242;
   font-size: 15px;
-  padding: 0 8px 0 16px;
+  padding: 7px 8px 0 16px;
   letter-spacing: 0.29px;
   text-align: left;
   vertical-align: middle;

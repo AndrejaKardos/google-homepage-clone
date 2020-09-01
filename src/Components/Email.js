@@ -9,7 +9,7 @@ class Email extends Component {
             <div className='email-account-div'>
                     <div className='email-info'>
                         <div className='email-icon'>
-                            <FontAwesomeIcon icon={faUser} transform='grow-16' className='icon-user-secondary' />
+                            <FontAwesomeIcon icon={faUser} transform='grow-20' className='icon-user-secondary' />
                         </div>
                             
                         <div className='email-text'>
