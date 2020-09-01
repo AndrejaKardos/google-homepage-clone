@@ -123,7 +123,7 @@ a:hover {
 }
 
 #user-info {
-  margin: 20px;
+  margin: 40px;
   white-space: nowrap;
 }
 
@@ -132,7 +132,6 @@ a:hover {
   height: 80px;
   border: none;
   vertical-align: top;
-  margin: 20px;
   border-radius: 50%;
   color: #2e72ca;
 }
@@ -163,12 +162,12 @@ a:hover {
   border: 1px solid #dadce0;
   border-radius: 100px;
   color: #3c4043;
-  font: 500 14px/16px Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font: 500 15px Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   letter-spacing: 0.25px;
   margin: 16px 0 0;
   max-width: 254px;
   outline: 0;
-  padding: 8px 16px;
+  padding: 9px 17px;
   text-align: center;
   text-decoration: none;
   text-overflow: ellipsis;
