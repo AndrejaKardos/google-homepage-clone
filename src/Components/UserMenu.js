@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
+import Email from './Email'
 import '../App.css'
 
 class UserMenu extends Component {
@@ -40,7 +41,7 @@ class UserMenu extends Component {
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
                         </div>
 
-                        
+                        <Email />
 
                         <div>
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='sign-out'>Sign out of all accounts</a>
