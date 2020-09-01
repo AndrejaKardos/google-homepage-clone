@@ -118,7 +118,8 @@ a:hover {
   top: 65px;
   right: 30px;
   width: 354px;
-  border: 1px solid rgb(155, 153, 153);
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 1px 1px 5px 2px rgb(223, 223, 223);
 }
 
 #user-menu-icon {
