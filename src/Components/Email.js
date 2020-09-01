@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import '../App.css'
 
 class Email extends Component {
@@ -33,6 +33,7 @@ class Email extends Component {
                 </div>
                 <div className='email-account-div'>
                     <a href='https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=AddSession' className='email-account'>
+                        <FontAwesomeIcon icon={faUserPlus} transform='shrink-3.5' id='add-user-icon' />
                         Add another account
                     </a>
                 </div>
