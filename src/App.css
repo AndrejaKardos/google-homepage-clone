@@ -189,7 +189,6 @@ a:hover {
 #email-account-div {
   border-top: 1px solid #ccc;
   border-top-color: rgba(0,0,0,.2);
-  display: block;
   border: none;
   cursor: pointer;
   height: 35px;
@@ -211,16 +210,16 @@ a:hover {
   text-align: left;
 }
 
+#email-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
 #icon-user-purple {
   color: #513185;
-}
-
-#icon-user-green {
-  color: #31855b;
-}
-
-#icon-user-pink {
-  color: #f6b4c3;
 }
 
 #add-user-icon {
