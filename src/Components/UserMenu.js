@@ -34,19 +34,27 @@ class UserMenu extends Component {
                             <div id='username'>
                                 Username
                             </div>
-                            <div id='email'>
+                            <div id='email-name'>
                                 E-mail
                             </div>
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
-                        
-                            <div className='email-account'>
-                                email1@gmail.com
+                        </div>
+
+                        <div id='email-container'>
+                            <div className='email-account-div'>
+                                <a href='https://www.google.com/webhp?authuser=1' className='email-account'>
+                                    email1@gmail.com
+                                </a>
                             </div>
-                            <div className='email-account'>
-                                email2@gmail.com
+                            <div className='email-account-div'>
+                                <a href='https://www.google.com/webhp?authuser=2' className='email-account'>
+                                    email2@gmail.com
+                                </a>
                             </div>
-                            <div className='email-account'>
-                                email3@gmail.com
+                            <div className='email-account-div'>
+                                <a href='https://www.google.com/webhp?authuser=3' className='email-account'>
+                                    email3@gmail.com
+                                </a>
                             </div>
                         </div>
                     </div>

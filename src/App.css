@@ -111,7 +111,6 @@ a:hover {
 }
 
 #user-menu {
-  display: block;
   position: absolute;
   max-height: calc(100vh - 44px - 15px - 100px);
   border-radius: 8px;
@@ -125,6 +124,11 @@ a:hover {
 #user-info {
   margin: 40px;
   white-space: nowrap;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #e8eaed;
+  width: 100%;
+  position: relative;
+  right: 40px;
 }
 
 #user-menu-icon {
@@ -148,7 +152,7 @@ a:hover {
   font-weight: 500;
 }
 
-#email {
+#email-name {
   color: #5f6368;
   font-size: 14px;
   letter-spacing: normal;
@@ -173,6 +177,33 @@ a:hover {
   text-decoration: none;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+#email-container {
+  padding-top: 30px;
+  outline-offset: -2px;
+  position: relative;
+  white-space: no-wrap;
+  display: block;
+}
+
+#email-account-div {
+  border-top: 1px solid #ccc;
+  border-top-color: rgba(0,0,0,.2);
+  display: block;
+  outline-offset: -2px;
+  padding: 10px 20px;
+  position: relative;
+  white-space: nowrap;
+}
+
+#email-account {
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  outline: 0;
+  padding: 12px 33px 13px;
+  width: 100%;
 }
 
 #main {
