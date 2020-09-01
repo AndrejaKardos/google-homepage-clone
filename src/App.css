@@ -115,8 +115,8 @@ a:hover {
   max-height: calc(100vh - 44px - 15px - 100px);
   border-radius: 8px;
   top: 65px;
-  right: 30px;
-  width: 354px;
+  right: 33px;
+  width: 390px;
   border: 1px solid rgb(204, 204, 204);
   box-shadow: 1px 1px 5px 2px rgb(223, 223, 223);
 }
