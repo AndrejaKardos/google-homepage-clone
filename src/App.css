@@ -185,6 +185,7 @@ a:hover {
   position: relative;
   white-space: no-wrap;
   display: block;
+  border-bottom: 1px solid #e8eaed;
 }
 
 #email-account-div {
@@ -204,6 +205,22 @@ a:hover {
   outline: 0;
   padding: 12px 33px 13px;
   width: 100%;
+}
+
+#sign-out {
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  border-radius: 4px;
+  display: inline-block;
+  font: 500 15px Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.2px;
+  outline: 0;
+  margin: 16px;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
 }
 
 #main {

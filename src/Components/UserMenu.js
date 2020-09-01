@@ -46,6 +46,10 @@ class UserMenu extends Component {
                         <div>
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='sign-out'>Sign out of all accounts</a>
                         </div>
+                        <div id='user-menu-bottom'>
+                            <a href='https://policies.google.com/privacy?hl=en'>Privacy Policy</a>
+                            <a href='https://policies.google.com/terms?hl=en'>Terms of Service</a>
+                        </div>
                     </div>
                 }
             </div>
