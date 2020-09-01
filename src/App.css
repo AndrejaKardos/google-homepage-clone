@@ -194,10 +194,13 @@ a:hover {
   border-top: 1px solid #ccc;
   border-top-color: rgba(0,0,0,.2);
   display: block;
-  outline-offset: -2px;
-  padding: 10px 20px;
   position: relative;
   white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  outline: 0;
+  padding: 12px 33px 13px;
 }
 
 #email-account {
@@ -252,7 +255,7 @@ a:hover {
 
 .user-menu-bottom-links:hover {
   text-decoration: none;
-
+  background-color: #f6f6f6;
 }
 
 .dot-span {
