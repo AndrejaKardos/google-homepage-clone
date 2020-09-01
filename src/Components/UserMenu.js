@@ -36,7 +36,7 @@ class UserMenu extends Component {
                                 Username
                             </div>
                             <div id='email-name'>
-                                E-mail
+                                emailname@gmail.com
                             </div>
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
                         </div>
