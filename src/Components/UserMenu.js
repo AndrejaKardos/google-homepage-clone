@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
+import UserAccount from './UserAccount'
 import Email from './Email'
 import AddAccount from './AddAccount'
 import './UserMenu.css'
@@ -29,18 +30,7 @@ class UserMenu extends Component {
                 </button>
                 { this.state.isOpen &&
                     <div id='user-menu'>
-                        <div id='user-info'>
-                            <div id='user-menu-icon-container'>
-                                <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='user-menu-icon' />
-                            </div>
-                            <div id='username'>
-                                Username
-                            </div>
-                            <div id='email-name'>
-                                emailname@gmail.com
-                            </div>
-                            <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
-                        </div>
+                        <UserAccount />
 
                         <a href='https://www.google.com/webhp?authuser=1' className='email-account'> 
                             <Email />
