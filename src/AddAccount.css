@@ -1,0 +1,29 @@
+#add-account-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 17px 0 20px 29px;
+}
+
+#add-account-icon, #add-account-text {
+color: #424242;
+font-size: 15px;
+padding: 7px 8px 0 16px;
+letter-spacing: 0.29px;
+text-align: left;
+vertical-align: middle;
+white-space: normal;
+}
+
+#add-account-info:hover {
+    background-color: #f6f6f6;
+}
+
+#add-user-icon {
+    color: #5d6066;
+}
+
+#add-account-div:hover {
+    text-decoration: none;
+}

@@ -232,14 +232,6 @@ a:hover {
   padding: 2px; 
 }
 
-#add-account-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  padding: 17px 0 20px 29px;
-}
-
 .email-info {
   padding: 15px 10px 30px 35px;
 }
@@ -252,30 +244,16 @@ a:hover {
   padding: 0 0 50px 25px;
 }
 
-#add-account-icon, #add-account-text {
-  color: #424242;
-  font-size: 15px;
-  padding: 7px 8px 0 16px;
-  letter-spacing: 0.29px;
-  text-align: left;
-  vertical-align: middle;
-  white-space: normal;
-}
-
-.email-account:hover, #add-account-div:hover {
+.email-account:hover {
   text-decoration: none;
 }
 
-.email-account-div:hover, #add-account-info:hover {
+.email-account-div:hover {
   background-color: #f6f6f6;
 }
 
 .icon-user-secondary {
   color: #6d9ad4;
-}
-
-#add-user-icon {
-  color: #5d6066;
 }
 
 #sign-out-div {
