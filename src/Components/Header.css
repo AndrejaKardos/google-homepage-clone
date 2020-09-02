@@ -1,15 +1,15 @@
-#header-container {
+#header {
     display: flex;
     justify-content: space-between;
 }
   
-.header-text {
+.header__right--text, .header__left--text {
     padding: 10px 5px 0 10px;
     font-size: 14px;
     letter-spacing: 0.2px;
 }
 
-#header-left {
+#header__left {
     display: flex;
     flex-direction: row;
     padding: 16px;
@@ -17,7 +17,7 @@
     opacity: 0.75;
 }
 
-#header-right {
+#header__right {
     display: flex;
     flex-direction: row;
     padding: 16px;
