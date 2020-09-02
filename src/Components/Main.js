@@ -3,14 +3,14 @@ import HeaderLogo from './HeaderLogo';
 import SearchBar from './Searchbar';
 import Buttons from './Buttons';
 import Message from './Message';
-import '../App.css';
+import '../Main.css';
 
 class MainContent extends Component {
     render() {
         return (
             <div id='main'>
                     <HeaderLogo />
-                <div id='searchform'>
+                <div>
                     <SearchBar />
                     <Buttons />
                 </div>
