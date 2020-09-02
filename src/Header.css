@@ -1,0 +1,25 @@
+#header-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.header-text {
+    padding: 10px 5px 0 10px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+#header-left {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    color: #000;
+    opacity: 0.75;
+}
+
+#header-right {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+}
