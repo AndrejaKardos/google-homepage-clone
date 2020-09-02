@@ -1,4 +1,4 @@
-#message-container {
+#message {
     margin-bottom: 32px;
     font-size: 14px;
     letter-spacing: 0.2px;
@@ -6,12 +6,12 @@
     text-decoration-color: none;
 }
   
-#icon-warning {
+#message__icon {
     color: #ffc422;
 }
 
 
-#message-link:visited {
+#message__link:visited {
     text-decoration: underline;  
     color: rgb(93, 7, 151);
 }
