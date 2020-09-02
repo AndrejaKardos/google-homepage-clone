@@ -3,7 +3,7 @@ import HeaderLogo from './HeaderLogo';
 import SearchBar from './Searchbar';
 import Buttons from './Buttons';
 import Message from './Message';
-import '../Main.css';
+import './Main.css';
 
 class MainContent extends Component {
     render() {

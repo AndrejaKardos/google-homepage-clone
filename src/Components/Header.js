@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import AppsMenu from './AppsMenu'
 import UserMenu from './UserMenu'
-import '../Header.css'
+import './Header.css'
 
 class Header extends Component {
     render() {

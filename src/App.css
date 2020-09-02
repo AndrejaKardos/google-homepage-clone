@@ -26,23 +26,3 @@ a:hover {
   text-decoration: underline;
   color: inherit;
 }
-
-#footer-lower-left {
-  display: flex;
-  margin-left: 35px;
-  padding: 2px 28px 0 0;
-}
-
-.left-footer-link {
-  padding-right: 30px;
-}
-
-#footer-lower-right {
-  display: flex;
-  margin-right: 10px;
-  padding: 2px 28px 0 0;
-}
-
-.right-footer-link {
-  padding-left: 30px;
-}

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Email from './Email'
 import AddAccount from './AddAccount'
-import '../UserMenu.css'
+import './UserMenu.css'
 
 class UserMenu extends Component {
     constructor(props) {
