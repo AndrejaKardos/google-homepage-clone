@@ -1,0 +1,26 @@
+#icon-grid {
+    color: #7e8288;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+#icon-grid-container {
+    padding: 12px 15px 0 22px;
+}
+
+#icon-grid:hover {
+    color: #35383b;
+}
+
+#grid-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 2px;
+}
+
+#grid-button:hover {
+    outline: none;
+}

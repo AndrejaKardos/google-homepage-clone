@@ -32,29 +32,6 @@ a:hover {
   color: rgb(93, 7, 151);
 }
 
-#icon-grid {
-  color: #7e8288;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-}
-
-#icon-grid-container {
-  padding: 12px 15px 0 22px;
-}
-
-#icon-grid:hover {
-  color: #35383b;
-}
-
-#grid-button {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  z-index: 2px;
-}
-
 #icon-user {
   color: #2e72ca;
   width: 30px;
@@ -79,7 +56,7 @@ a:hover {
   outline: none;
 }
 
-#user-button:hover, #grid-button:hover {
+#user-button:hover {
   outline: none;
 }
 

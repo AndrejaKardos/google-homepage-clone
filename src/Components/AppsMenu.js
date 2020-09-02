@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTh } from '@fortawesome/free-solid-svg-icons'
-import '../App.css'
+import '../AppsMenu.css'
 
 class AppsMenu extends Component {
     constructor(props) {
