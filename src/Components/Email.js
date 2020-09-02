@@ -7,13 +7,13 @@ class Email extends Component {
     render() {
         return (
             <div className='email'>
-                <div className='email-icon'>
-                    <FontAwesomeIcon icon={faUser} transform='grow-20' className='icon-user-secondary' />
+                <div className='email__icon'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-20' className='email__icon--user' />
                 </div>
                     
-                <div className='email-text'>
-                    <div className='email-text-top'>Username</div>
-                    <div className='email-text-bottom'>emailname2@gmail.com</div>
+                <div className='email__text'>
+                    <div className='email__text--username'>Username</div>
+                    <div className='email__text--address'>emailname2@gmail.com</div>
                 </div>
             </div>
         );
