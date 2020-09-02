@@ -6,12 +6,10 @@ import './Searchbar.css'
 class Searchbar extends Component {
     render() {
         return(
-            <div id='searchbar-container'>
-                <div id='searchbar-outline'>
-                    <FontAwesomeIcon icon={faSearch} transform='grow-3 right-22' id='icon-search' />
-                    <input type='text' id='searchbar'></input>
-                    <FontAwesomeIcon icon={faMicrophone} transform='grow-8 left-30' id='icon-microphone' />
-                </div>
+            <div id='searchbar-outline'>
+                <FontAwesomeIcon icon={faSearch} transform='grow-3 right-22' id='icon-search' />
+                <input type='text' id='searchbar'></input>
+                <FontAwesomeIcon icon={faMicrophone} transform='grow-8 left-30' id='icon-microphone' />
             </div>
         );
     }
