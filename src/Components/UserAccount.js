@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
-import './UserMenu.css'
+import './UserAccount.css'
 
 class UserAccount extends Component {
 render() {

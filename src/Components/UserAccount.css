@@ -1,0 +1,59 @@
+#user-info {
+    margin: 0 40px 0 40px; 
+    white-space: nowrap;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #e8eaed;
+    width: 100%;
+    position: relative;
+    right: 40px;
+}
+
+#user-menu-icon {
+    width: 80px;
+    height: 80px;
+    border: none;
+    vertical-align: top;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 50%;
+    color: #2e72ca;
+}
+
+#username {
+    color: #202124;
+    font: 500 19px Google Sans, Roboto, RobotoDraft, Helvetica,Arial,sans-serif;
+    letter-spacing: .29px;
+    margin: 0;
+    margin: -4px 0 1px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-top: 5px; 
+    font-weight: 500;
+}
+
+#email-name {
+    color: #64676b;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+#manage-account-link {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 100px;
+    color: #3c4043;
+    font: 500 15px Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    margin: 16px 0 0;
+    max-width: 254px;
+    outline: 0;
+    padding: 9px 17px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
