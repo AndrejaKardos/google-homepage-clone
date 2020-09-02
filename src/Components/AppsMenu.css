@@ -1,19 +1,19 @@
-#icon-grid {
+#appsmenu {
+    padding: 12px 15px 0 22px;
+}
+
+#appsmenu__button--icon {
     color: #7e8288;
     width: 14px;
     height: 14px;
     border-radius: 50%;
 }
 
-#icon-grid-container {
-    padding: 12px 15px 0 22px;
-}
-
-#icon-grid:hover {
+#appsmenu__button--icon:hover {
     color: #35383b;
 }
 
-#grid-button {
+#appsmenu__button {
     border: none;
     background: none;
     padding: 0;
@@ -22,6 +22,6 @@
     outline: none;
 }
 
-#grid-button:hover {
+#appsmenu__button:hover {
     outline: none;
 }

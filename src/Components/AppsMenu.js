@@ -21,12 +21,12 @@ class AppsMenu extends Component {
 
     render() {
         return (
-            <div id='icon-grid-container'>
-                <button id='grid-button' onClick={this.onClick}>
-                    <FontAwesomeIcon icon={faTh} transform='grow-7' id='icon-grid' />
+            <div id='appsmenu'>
+                <button id='appsmenu__button' onClick={this.onClick}>
+                    <FontAwesomeIcon icon={faTh} transform='grow-7' id='appsmenu__button--icon' />
                 </button>
                 { this.state.isOpen && 
-                    <div id='app-menu'>Hello world</div>
+                    <div id='appmenu__text'>Hello world</div>
                 }
             </div>
         );
