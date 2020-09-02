@@ -1,4 +1,4 @@
-#add-account-info {
+#add-account {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -6,7 +6,12 @@
     padding: 17px 0 20px 29px;
 }
 
-#add-account-icon, #add-account-text {
+
+#add-account:hover {
+    text-decoration: none;
+}
+
+#add-account__icon, #add-account__text {
 color: #424242;
 font-size: 15px;
 padding: 7px 8px 0 16px;
@@ -16,14 +21,10 @@ vertical-align: middle;
 white-space: normal;
 }
 
-#add-account-info:hover {
+#add-account:hover {
     background-color: #f6f6f6;
 }
 
-#add-user-icon {
+#add-account__icon--user {
     color: #5d6066;
-}
-
-#add-account-div:hover {
-    text-decoration: none;
 }
