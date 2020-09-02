@@ -5,8 +5,8 @@ import './HeaderLogo.css';
 class HeaderLogo extends Component {
     render() {
         return(
-            <div id='logo-container'>
-                <img src={Logo} alt='Google' id='logo' />
+            <div id='logo'>
+                <img src={Logo} alt='Google' id='logo__image' />
             </div>
         );
     }
