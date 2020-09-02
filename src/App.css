@@ -27,37 +27,6 @@ a:hover {
   color: inherit;
 }
 
-#footer-container {
-  display: flex;
-  flex-direction: column;
-  height: 90px;
-  width: 100%;
-  background-color: #F2F2F2;
-  line-height: 40px;
-  letter-spacing: 0.2px;
-}
-
-#footer-upper {
-  display: flex;
-  justify-content: flex-start;
-  color: rgba(0,0,0,.50);
-  font-size: 17px;
-  padding: 2px 0 2px 35px;
-  visibility: visible;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
-  min-width: 400px;
-}
-
-#footer-lower {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  font-size: 0.95rem;
-  color: rgba(0,0,0,.65);
-}
-
 #footer-lower-left {
   display: flex;
   margin-left: 35px;
