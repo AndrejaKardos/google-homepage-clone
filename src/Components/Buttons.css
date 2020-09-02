@@ -1,8 +1,8 @@
-#button-container {
+#buttons {
     padding: 18px 0 18px 0;
 }
   
-#google-search, #feeling-lucky {
+#buttons__search, #buttons__lucky {
     background-color: #F2F2F2;
     color: #5F6368;
     font-family: arial, sans-serif;
@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-#google-search:hover, #feeling-lucky:hover {
+#buttons__search:hover, #buttons__lucky:hover {
     text-decoration: none;
     color: #000;
     border: solid 1px #bbbdc0; 

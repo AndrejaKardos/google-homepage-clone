@@ -4,9 +4,9 @@ import './Buttons.css';
 class Buttons extends Component {
     render() {
         return(
-            <div id='button-container'>
-                <button id='google-search'>Google Search</button>
-                <button id='feeling-lucky'>I'm Feeling Lucky</button>
+            <div id='buttons'>
+                <button id='buttons__search'>Google Search</button>
+                <button id='buttons__lucky'>I'm Feeling Lucky</button>
             </div>
         );
     }
