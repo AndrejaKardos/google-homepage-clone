@@ -7,9 +7,9 @@ class Searchbar extends Component {
     render() {
         return(
             <div id='searchbar'>
-                <FontAwesomeIcon icon={faSearch} transform='grow-3 right-22' id='icon-search' />
+                <FontAwesomeIcon icon={faSearch} transform='grow-3 right-22' id='searchbar__icon--search' />
                 <input type='text' id='searchbar__input'></input>
-                <FontAwesomeIcon icon={faMicrophone} transform='grow-8 left-30' id='icon-microphone' />
+                <FontAwesomeIcon icon={faMicrophone} transform='grow-8 left-30' id='searchbar__icon--microphone' />
             </div>
         );
     }
