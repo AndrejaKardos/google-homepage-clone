@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Logo from '../Images/googlelogo_color_272x92dp.png';
-import '../App.css';
+import '../HeaderLogo.css';
 
 class HeaderLogo extends Component {
     render() {

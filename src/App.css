@@ -27,14 +27,6 @@ a:hover {
   color: inherit;
 }
 
-#logo-container {
-  width: 272;
-  height: 109px;
-  padding: 170px 0 10px 0;
-  margin: auto;
-  min-width: 400px;
-}
-
 #footer-container {
   display: flex;
   flex-direction: column;
