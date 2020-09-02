@@ -6,17 +6,17 @@ import './UserAccount.css'
 class UserAccount extends Component {
 render() {
         return (
-            <div id='user-info'>
-                <div id='user-menu-icon-container'>
-                    <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='user-menu-icon' />
+            <div id='useraccount'>
+                <div id='useraccount__icon'>
+                    <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='useraccount__icon--user' />
                 </div>
-                <div id='username'>
+                <div id='useraccount__text--username'>
                     Username
                 </div>
-                <div id='email-name'>
+                <div id='useraccount__text--email'>
                     emailname@gmail.com
                 </div>
-                <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='manage-account-link' target='_blank'>Manage your Google Account</a>
+                <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='useraccount__link' target='_blank'>Manage your Google Account</a>
             </div>
         );
     }

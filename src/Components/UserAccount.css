@@ -1,4 +1,4 @@
-#user-info {
+#useraccount {
     margin: 0 40px 0 40px; 
     white-space: nowrap;
     padding-bottom: 35px;
@@ -8,7 +8,7 @@
     right: 40px;
 }
 
-#user-menu-icon {
+#useraccount__icon--user {
     width: 80px;
     height: 80px;
     border: none;
@@ -19,7 +19,7 @@
     color: #2e72ca;
 }
 
-#username {
+#useraccount__text--username {
     color: #202124;
     font: 500 19px Google Sans, Roboto, RobotoDraft, Helvetica,Arial,sans-serif;
     letter-spacing: .29px;
@@ -31,7 +31,7 @@
     font-weight: 500;
 }
 
-#email-name {
+#useraccount__text--email {
     color: #64676b;
     font-size: 15px;
     letter-spacing: 0.25px;
@@ -41,7 +41,7 @@
     padding-bottom: 30px;
 }
 
-#manage-account-link {
+#useraccount__link {
     background-color: #fff;
     border: 1px solid #dadce0;
     border-radius: 100px;
