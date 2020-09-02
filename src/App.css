@@ -111,6 +111,7 @@ a:hover {
 }
 
 #user-menu {
+  background-color: #fff;
   position: absolute;
   max-height: calc(100vh - 44px - 15px - 100px);
   border-radius: 8px;
