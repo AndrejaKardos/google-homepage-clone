@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faMicrophone } from '@fortawesome/free-solid-svg-icons'
-import '../App.css'
+import '../Searchbar.css'
 
 class Searchbar extends Component {
     render() {
