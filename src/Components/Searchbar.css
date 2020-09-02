@@ -1,4 +1,4 @@
-#searchbar-outline {
+#searchbar {
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -11,7 +11,7 @@
     margin: auto;
 }
 
-#searchbar {
+#searchbar__input {
     display: flex;
     flex: 100%;
     background-color: transparent;
@@ -26,11 +26,13 @@
 #icon-search {
     margin: auto;
     margin-right: 5px;
+    padding-bottom: 1px;
     color: #a6acb4; 
 }
 
 #icon-microphone {
     margin: auto;
     margin-left: 5px;
+    padding-bottom: 1px;
     color: #2e72ca;
 }
