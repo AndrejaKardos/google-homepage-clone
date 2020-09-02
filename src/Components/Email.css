@@ -1,4 +1,4 @@
-.email-account-div {
+.email {
     display: flex;
     flex-direction: row;
     border-top: 1px solid #ccc;
@@ -9,17 +9,17 @@
     outline: 0;
     padding: 0 0 30px 10px;
     min-width: 165px;
+    justify-content: flex-start;
 }
 
-.email-account-div:hover {
+.email:hover {
     background-color: #f6f6f6;
 }
 
 .email-info {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    padding-bottom: 20px;
+    
 }
   
 .email-icon {
