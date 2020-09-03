@@ -9,8 +9,10 @@ class AppCollection extends Component {
             <div className='apps'>
                 <div className='apps__icon'>
                     <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=app'>
-                        <FontAwesomeIcon icon={faUser} transform='grow-30' />
-                        
+                        <FontAwesomeIcon icon={faUser} transform='grow-30' className='apps_icon--image'/>
+                        <div className='apps_icon--text'>
+                            Account
+                        </div>
                     </a>
                 </div>
                 <div className='apps__icon'>

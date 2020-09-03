@@ -6,10 +6,20 @@
 
 .apps__icon {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     border-radius: 8px;
     border: 1px solid grey;
     margin-left: 25px;
     margin-top: 25px;
-    padding: 35px;
+    width: 80px;
+    height: 80px;
+}
+
+.apps__icon--image {
+    justify-self: flex-start;
+}
+
+.apps__icon--text {
+    font-size: 14px;
+    letter-spacing: 0.25px;
 }
