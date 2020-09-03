@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 100%;
     padding: 17px 0 20px 29px;
 }
 
 
-#add-account:hover {
-    text-decoration: none;
+#add-account:hover, #add-account__text:hover {
+    background-color: #f6f6f6;
+    text-decoration: none
 }
 
 #add-account__icon, #add-account__text {
@@ -21,14 +21,6 @@ vertical-align: middle;
 white-space: normal;
 }
 
-#add-account:hover {
-    background-color: #f6f6f6;
-}
-
 #add-account__icon--user {
     color: #5d6066;
-}
-
-#add-account__text:hover {
-    text-decoration: none;
 }
