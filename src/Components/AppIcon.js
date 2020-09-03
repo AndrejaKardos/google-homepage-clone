@@ -13,7 +13,9 @@ class AppIcon extends Component {
         return(
             <div className='appicon'>
                 <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=app'>
-                    <FontAwesomeIcon icon={name} transform='grow-30' className='appicon__image'/>
+                    <div className='appicon__image'>
+                        <FontAwesomeIcon icon={name} transform='grow-30' className='appicon__image--active'/>
+                    </div>
                     <div className='appicon__text'>
                         {text}
                     </div>
