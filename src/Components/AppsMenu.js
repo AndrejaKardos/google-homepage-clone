@@ -26,7 +26,9 @@ class AppsMenu extends Component {
                     <FontAwesomeIcon icon={faTh} transform='grow-7' id='appsmenu__button--icon' />
                 </button>
                 { this.state.isOpen && 
-                    <div id='appsmenu__modal'>Hello world</div>
+                    <div id='appsmenu__modal'>
+                        Icons here!
+                    </div>
                 }
             </div>
         );
