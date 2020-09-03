@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 import './AppCollection.css'
 
 class AppCollection extends Component {
@@ -6,7 +8,15 @@ class AppCollection extends Component {
         return (
             <div className='apps'>
                 <div className='apps__row'>
-                    Icon Icon Icon
+                    <div className='apps__row--icon'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-5' id='appsmenu__button--icon' />
+                    </div>
+                    <div className='apps__row--icon'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-5' id='appsmenu__button--icon' />
+                    </div>
+                    <div className='apps__row--icon'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-5' id='appsmenu__button--icon' />
+                    </div>
                 </div>
             </div>
         );
