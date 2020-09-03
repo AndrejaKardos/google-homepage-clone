@@ -7,16 +7,23 @@ class AppCollection extends Component {
     render() {
         return (
             <div className='apps'>
-                <div className='apps__row'>
-                    <div className='apps__row--icon'>
-                    <FontAwesomeIcon icon={faUser} transform='grow-30' id='appsmenu__button--icon' />
-                    </div>
-                    <div className='apps__row--icon'>
-                    <FontAwesomeIcon icon={faUser} transform='grow-30' id='appsmenu__button--icon' />
-                    </div>
-                    <div className='apps__row--icon'>
-                    <FontAwesomeIcon icon={faUser} transform='grow-30' id='appsmenu__button--icon' />
-                    </div>
+                <div className='apps__icon apps__icon--user'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-30' />
+                </div>
+                <div className='apps__icon apps__icon--user'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-30' />
+                </div>
+                <div className='apps__icon apps__icon--user'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-30' />
+                </div>
+                <div className='apps__icon apps__icon--user'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-30' />
+                </div>
+                <div className='apps__icon apps__icon--user'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-30' />
+                </div>
+                <div className='apps__icon apps__icon--user'>
+                    <FontAwesomeIcon icon={faUser} transform='grow-30' />
                 </div>
             </div>
         );

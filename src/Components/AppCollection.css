@@ -1,9 +1,9 @@
-.apps__row  {
+.apps  {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.apps__row--icon {
-    padding: 50px 35px 20px 50px;
-    margin-left: 10px;
+.apps__icon {
+    padding: 50px 35px 20px 60px;
 }
