@@ -24,25 +24,25 @@ class UserMenu extends Component {
 
     render() {
         return (
-            <div id='icon-user-container'>
-                <button id='user-button' onClick={this.onClick}>
-                    <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='icon-user' />
+            <div id='usermenu'>
+                <button id='usermenu__button' onClick={this.onClick}>
+                    <FontAwesomeIcon icon={faUser} transform='shrink-3.5' id='usermenu__button--user' />
                 </button>
                 { this.state.isOpen &&
-                    <div id='user-menu'>
+                    <div id='usermenu__links'>
                         <UserAccount />
 
-                        <a href='https://www.google.com/webhp?authuser=1' className='email-account'> 
+                        <a href='https://www.google.com/webhp?authuser=1' className='usermenu__links--email'> 
                             <Email />
                         </a>
-                        <a href='https://www.google.com/webhp?authuser=2' className='email-account'> 
+                        <a href='https://www.google.com/webhp?authuser=2' className='usermenu__links--email'> 
                             <Email />
                         </a>
-                        <a href='https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=AddSession' id='add-account-div'>
+                        <a href='https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=AddSession' id='usermenu__links--addaccount'>
                             <AddAccount />
                         </a>
 
-                        <div id='sign-out-div'>
+                        <div id='usermenu__links--signout'>
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='sign-out'>Sign out of all accounts</a>
                         </div>
                         <div id='user-menu-bottom'>

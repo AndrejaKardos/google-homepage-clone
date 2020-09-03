@@ -1,20 +1,20 @@
-#icon-user {
+#usermenu {
+    padding: 4px 17px 0 10px;
+    border: 0;
+}
+
+#usermenu__button--user {
     color: #2e72ca;
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
   
-#icon-user-container {
-    padding: 4px 17px 0 10px;
-    border: 0;
-}
-  
-#icon-user:hover {
+#usermenu__button--user:hover {
     box-shadow: 0px 0px 4px 1px rgb(223, 223, 223);
 }
   
-#user-button {
+#usermenu__button {
     border: none;
     background: none;
     padding: 0;
@@ -22,11 +22,11 @@
     outline: none;
 }
   
-#user-button:hover {
+#usermenu__button:hover {
     outline: none;
 }
   
-#user-menu {
+#usermenu__links {
     background-color: #fff;
     position: absolute;
     max-height: calc(100vh - 44px - 15px - 100px);
@@ -38,7 +38,7 @@
     box-shadow: 1px 1px 5px 2px rgb(223, 223, 223);
 }
   
-.email-account {
+.usermenu__links--email {
     border: none;
     cursor: pointer;
     height: 35px;
@@ -49,11 +49,11 @@
     text-decoration: none;
 }
   
-.email-account:hover {
+.usermenu__links--email:hover {
     text-decoration: none;
 }
   
-#sign-out-div {
+#usermenu__links--signout {
     border-top: 1px solid #e8eaed;
 }
   
