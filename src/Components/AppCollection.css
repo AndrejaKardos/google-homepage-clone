@@ -5,5 +5,11 @@
 }
 
 .apps__icon {
-    padding: 50px 35px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 35px;
 }
