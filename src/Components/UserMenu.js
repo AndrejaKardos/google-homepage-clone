@@ -4,6 +4,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import UserAccount from './UserAccount'
 import Email from './Email'
 import AddAccount from './AddAccount'
+import MenuFooter from './MenuFooter'
 import './UserMenu.css'
 
 class UserMenu extends Component {
@@ -45,11 +46,7 @@ class UserMenu extends Component {
                         <div id='usermenu__links--signout'>
                             <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='sign-out'>Sign out of all accounts</a>
                         </div>
-                        <div id='user-menu-bottom'>
-                            <a href='https://policies.google.com/privacy?hl=en' className='user-menu-bottom-links'>Privacy Policy</a>
-                            <span className="dot-span" aria-hidden="true">•</span>
-                            <a href='https://policies.google.com/terms?hl=en' className='user-menu-bottom-links'>Terms of Service</a>
-                        </div>
+                        <MenuFooter />
                     </div>
                 }
             </div>
