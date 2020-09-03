@@ -23,7 +23,7 @@
     line-height: normal;
 }
   
-.user-menu-bottom-links:hover, #manage-account-link:hover, #sign-out:hover {
+.user-menu-bottom-links:hover {
     text-decoration: none;
     background-color: #f6f6f6;
 }

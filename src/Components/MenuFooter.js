@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './UserMenu.css'
+import './MenuFooter.css'
 
 class MenuFooter extends Component {
     render() {
