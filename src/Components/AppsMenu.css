@@ -9,6 +9,17 @@
     border-radius: 50%;
 }
 
+#appsmenu__modal {
+    position: absolute;
+    top: 65px;
+    right: 30px;
+    width: 335px;
+    height: 480px;
+    border: 1px solid #7e8288;
+    border-radius: 8px;
+    background: #fff;
+}
+
 #appsmenu__button--icon:hover {
     color: #35383b;
 }
