@@ -7,11 +7,12 @@
     color: #5F6368;
     font-family: arial, sans-serif;
     font-size: 15px;
-    margin: 14px 9px;
+    letter-spacing: 0.25px;
+    margin: 14px 6px;
     padding: 0px 18px;
     border: 1px solid #F2F2F2;
     border-radius: 5px;
-    line-height: 27px;
+    line-height: 26px;
     height: 40px;
     min-width: 54px;
     text-align: center;
