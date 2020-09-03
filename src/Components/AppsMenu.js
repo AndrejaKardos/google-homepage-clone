@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTh } from '@fortawesome/free-solid-svg-icons'
+import AppCollection from './AppCollection'
 import './AppsMenu.css'
 
 class AppsMenu extends Component {
@@ -27,7 +28,7 @@ class AppsMenu extends Component {
                 </button>
                 { this.state.isOpen && 
                     <div id='appsmenu__modal'>
-                        Icons here!
+                        <AppCollection />
                     </div>
                 }
             </div>
