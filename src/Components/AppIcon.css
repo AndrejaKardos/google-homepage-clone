@@ -1,0 +1,9 @@
+.appicon {
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
