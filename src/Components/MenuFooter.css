@@ -1,4 +1,4 @@
-#user-menu-bottom {
+#menufooter {
     position: relative;
     right: 14px;
     border-top: 1px solid #e8eaed;
@@ -9,7 +9,7 @@
     white-space: normal;
 }
   
-.user-menu-bottom-links {
+.menufooter__link {
     border-radius: 4px;
     color: #5f6368 !important;
     display: inline-block;
@@ -23,12 +23,12 @@
     line-height: normal;
 }
   
-.user-menu-bottom-links:hover {
+.menufooter__link:hover {
     text-decoration: none;
     background-color: #f6f6f6;
 }
   
-.dot-span {
+.menufooter__dot {
     line-height: normal;
     position: relative;
 }
