@@ -49,7 +49,7 @@
     text-decoration: none;
 }
   
-.usermenu__links--email:hover {
+.usermenu__links--email:hover, #usermenu__links--addaccount {
     text-decoration: none;
 }
   
