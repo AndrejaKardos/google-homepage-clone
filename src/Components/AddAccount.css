@@ -28,3 +28,7 @@ white-space: normal;
 #add-account__icon--user {
     color: #5d6066;
 }
+
+#add-account__text:hover {
+    text-decoration: none;
+}
