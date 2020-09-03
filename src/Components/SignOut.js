@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import './UserMenu.css'
+import './SignOut.css'
 
 class SignOut extends Component {
     render() {
         return (
-            <div id='usermenu__links--signout'>
-                <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='sign-out'>Sign out of all accounts</a>
+            <div id='signout'>
+                <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act' id='signout__button'>Sign out of all accounts</a>
             </div>
         );
     }
