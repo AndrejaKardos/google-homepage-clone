@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { faUser, faSearch, faMapMarkerAlt, faPlayCircle, faPlay, faNewspaper, faEnvelopeOpenText, faVideo } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faSearch, faMapMarkerAlt, faPlayCircle, 
+         faPlay, faNewspaper, faEnvelopeOpenText, faVideo,
+         faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import AppIcon from './AppIcon'
 import './AppCollection.css'
 
@@ -15,6 +17,7 @@ class AppCollection extends Component {
                 <AppIcon name={faNewspaper} text='News' />
                 <AppIcon name={faEnvelopeOpenText} text='Gmail' />
                 <AppIcon name={faVideo} text='Meets' />
+                <AppIcon name={faAddressBook} text='Contacts' />
             </div>
         );
     }
