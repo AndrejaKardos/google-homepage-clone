@@ -4,7 +4,7 @@ import { faUser, faSearch, faMapMarkerAlt, faPlayCircle,
          faAddressBook, faCloudDownloadAlt, faCalendarAlt,
          faLanguage, faPhotoVideo, faTag, faFileAlt, 
          faFileExcel, faFile, faBook, faBlog, faQuoteRight,
-         faLightbulb, faTablet } from '@fortawesome/free-solid-svg-icons'
+         faLightbulb, faTablet, faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons'
 import AppIcon from './AppIcon'
 import './AppCollection.css'
 
@@ -44,6 +44,7 @@ class AppCollection extends Component {
 
                 <AppIcon name={faLightbulb} text='Keep' />
                 <AppIcon name={faTablet} text='Jamboard' />
+                <AppIcon name={faChalkboardTeacher} text='Classroom' />
             </div>
         );
     }
