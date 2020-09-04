@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { faUser, faSearch, faMapMarkerAlt, faPlayCircle, 
          faPlay, faNewspaper, faEnvelopeOpenText, faVideo,
          faAddressBook, faCloudDownloadAlt, faCalendarAlt,
-         faLanguage } from '@fortawesome/free-solid-svg-icons'
+         faLanguage, faPhotoVideo } from '@fortawesome/free-solid-svg-icons'
 import AppIcon from './AppIcon'
 import './AppCollection.css'
 
@@ -25,6 +25,8 @@ class AppCollection extends Component {
                 <AppIcon name={faCloudDownloadAlt} text='Drive' />
                 <AppIcon name={faCalendarAlt} text='Calendar' />
                 <AppIcon name={faLanguage} text='Translate' />
+
+                <AppIcon name={faPhotoVideo} text='Photos' />
             </div>
         );
     }
