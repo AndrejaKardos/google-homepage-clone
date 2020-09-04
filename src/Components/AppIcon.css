@@ -4,8 +4,8 @@
     justify-content: center;
     border: 1px solid transparent;
     border-radius: 8px;
-    width: 80px;
-    height: 80px;
+    width: 83px;
+    height: 83px;
     margin-left: 25px;
     margin-top: 20px;
 }
@@ -28,14 +28,18 @@
     height: 100%;
     align-self: center;
     justify-self: center;
+    margin-top: 5px;
 }
 
 .appicon__text {
     width: 100%;
     height: 100%;
     align-self: flex-end;
+    font-size: 14px;
+    font: 500;
+    letter-spacing: 0.5px;
 }
 
-.appicon__text:hover {
+.appicon__text:hover, .appicon__image:hover {
     text-decoration: none,
 }
