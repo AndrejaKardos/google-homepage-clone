@@ -30,11 +30,11 @@ class AppCollection extends Component {
                 <AppIcon name={faVideo} text='Duo' />
                 <AppIcon name={faTag} text='Shopping' />
 
-                <div className='apps__line'>
-                    <AppIcon name={faPhotoVideo} text='Photos' />
-                    <AppIcon name={faVideo} text='Duo' />
-                    <AppIcon name={faTag} text='Shopping' />
-                </div>
+                <div className='apps__line'></div>
+
+                <AppIcon name={faUser} text='Test' />
+                <AppIcon name={faUser} text='Test' />
+                <AppIcon name={faUser} text='Test' />
             </div>
         );
     }
