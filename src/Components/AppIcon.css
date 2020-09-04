@@ -14,12 +14,7 @@
     background: #e8eeff;
 }
 
-.appicon__link {
-    text-decoration: none;
-}
-
-
-.appicon__links:hover {
+.appicon__link:hover {
     text-decoration: none;
 }
 
@@ -38,8 +33,4 @@
     font-size: 14px;
     font: 500;
     letter-spacing: 0.5px;
-}
-
-.appicon__text:hover, .appicon__image:hover {
-    text-decoration: none,
 }
