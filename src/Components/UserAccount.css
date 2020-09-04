@@ -57,3 +57,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+#useraccount__link:hover {
+    background-color: #f6f6f6;
+}
