@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faSearch } from '@fortawesome/free-solid-svg-icons'
 import AppIcon from './AppIcon'
 import './AppCollection.css'
 
@@ -8,6 +8,7 @@ class AppCollection extends Component {
         return (
             <div className='apps'>
                 <AppIcon name={faUser} text='Account' />
+                <AppIcon name={faSearch} text='Search' />
             </div>
         );
     }
