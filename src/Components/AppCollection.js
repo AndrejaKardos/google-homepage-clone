@@ -29,6 +29,12 @@ class AppCollection extends Component {
                 <AppIcon name={faPhotoVideo} text='Photos' />
                 <AppIcon name={faVideo} text='Duo' />
                 <AppIcon name={faTag} text='Shopping' />
+
+                <div className='apps__line'>
+                    <AppIcon name={faPhotoVideo} text='Photos' />
+                    <AppIcon name={faVideo} text='Duo' />
+                    <AppIcon name={faTag} text='Shopping' />
+                </div>
             </div>
         );
     }

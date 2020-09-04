@@ -9,8 +9,6 @@
     align-items: center;
     border-radius: 8px;
     border: 1px solid grey;
-    margin-left: 25px;
-    margin-top: 25px;
 }
 
 .apps__icon--image {
@@ -20,4 +18,9 @@
 .apps__icon--text {
     font-size: 14px;
     letter-spacing: 0.25px;
+}
+
+.apps__line {
+    border-top: 1px solid #b9b9b9;
+    width: 100%;
 }
