@@ -10,6 +10,10 @@
     margin-top: 20px;
 }
 
+.appicon__link {
+    text-decoration: none;
+}
+
 .appicon__image {
     width: 100%;
     height: 100%;
@@ -21,4 +25,8 @@
     width: 100%;
     height: 100%;
     align-self: flex-end;
+}
+
+.appicon__link:hover {
+    text-decoration: none;
 }

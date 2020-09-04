@@ -13,7 +13,7 @@ class AppIcon extends Component {
         const address = this.props.address;
         return(
             <div className='appicon'>
-                <a href={address}>
+                <a href={address} className='appicon__link'>
                     <div className='appicon__image'>
                         <FontAwesomeIcon icon={name} transform='grow-30' className='appicon__image--active'/>
                     </div>
