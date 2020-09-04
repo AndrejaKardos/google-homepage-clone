@@ -10,9 +10,10 @@ class AppIcon extends Component {
     render() {
         const name = this.props.name;
         const text = this.props.text;
+        const address = this.props.address;
         return(
             <div className='appicon'>
-                <a href='https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=app'>
+                <a href={address}>
                     <div className='appicon__image'>
                         <FontAwesomeIcon icon={name} transform='grow-30' className='appicon__image--active'/>
                     </div>
