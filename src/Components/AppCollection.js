@@ -3,7 +3,7 @@ import { faUser, faSearch, faMapMarkerAlt, faPlayCircle,
          faPlay, faNewspaper, faEnvelopeOpenText, faVideo,
          faAddressBook, faCloudDownloadAlt, faCalendarAlt,
          faLanguage, faPhotoVideo, faTag, faFileAlt, 
-         faFileExcel, faFile, faBook, faBlog } from '@fortawesome/free-solid-svg-icons'
+         faFileExcel, faFile, faBook, faBlog, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import AppIcon from './AppIcon'
 import './AppCollection.css'
 
@@ -39,6 +39,7 @@ class AppCollection extends Component {
 
                 <AppIcon name={faBook} text='Books' />
                 <AppIcon name={faBlog} text='Blogger' />
+                <AppIcon name={faQuoteRight} text='Hangouts' />
             </div>
         );
     }
