@@ -27,6 +27,7 @@ class AppCollection extends Component {
                 <AppIcon name={faLanguage} text='Translate' />
 
                 <AppIcon name={faPhotoVideo} text='Photos' />
+                <AppIcon name={faVideo} text='Duo' />
             </div>
         );
     }
