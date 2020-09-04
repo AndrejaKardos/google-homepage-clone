@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { faUser, faSearch, faMapMarkerAlt, faPlayCircle, 
          faPlay, faNewspaper, faEnvelopeOpenText, faVideo,
          faAddressBook, faCloudDownloadAlt, faCalendarAlt,
-         faLanguage, faPhotoVideo, faTag } from '@fortawesome/free-solid-svg-icons'
+         faLanguage, faPhotoVideo, faTag, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 import AppIcon from './AppIcon'
 import './AppCollection.css'
 
@@ -32,7 +32,7 @@ class AppCollection extends Component {
 
                 <div className='apps__line'></div>
 
-                <AppIcon name={faUser} text='Test' />
+                <AppIcon name={faFileAlt} text='Docs' />
                 <AppIcon name={faUser} text='Test' />
                 <AppIcon name={faUser} text='Test' />
             </div>
